@@ -1,0 +1,65 @@
+.page-blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #6F6F6F;
+
+    .container-blog-inicio{
+        
+    }
+
+    .container-blog-costuras{
+        display: flex;
+        flex-wrap: wrap;
+
+        width: 840px;
+        padding: 35px 40px;
+        gap: 0px 60px;
+        margin-top: 220px;
+
+        border-radius: 80px;
+        background-color: #D9D9D9;
+
+        .costuras-blog{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            img{
+                width: 380px;
+                height: auto;
+                border-radius: 46px;
+                margin-top: 15px;
+            }
+
+            .comp-costuras{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h3{
+                    margin: 0;
+                    margin-top: 15px;
+                    max-width: 380px;
+
+                    font: 400 22px 'Anton';
+                    color: #6F6F6F;
+                }
+
+                p{
+                    font: 400 16px 'Chivo';
+                    max-width: 385px;
+                    margin: 0;
+                }
+
+            }
+        }
+
+        .historias{
+            margin-left: 0px;
+        }
+
+    }
+
+}

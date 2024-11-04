@@ -1,0 +1,139 @@
+.page-depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    width: 1423px;
+    z-index: 1;
+    background-color: #6F6F6F;
+
+    .borrao-silkstich{
+      display: flex;
+      justify-content: center;
+      width: 1423px;
+      position: relative;
+
+      img{
+        position: absolute;
+        width: 1423px;
+        z-index: -1;   
+      }
+  }
+
+    .header-depoimentos{
+      display: flex;
+      justify-content: center;
+      margin: 0;
+
+      a{
+        text-decoration: none;
+      }
+    
+      .link-logo{
+        
+        
+        .logo2{
+          width: 266px;
+          height: 266px;
+          
+          margin-top: -25px;
+          margin-left: 0px;
+          
+        }
+      
+      }
+    
+      .h3-header{
+        display: flex;
+        margin-top: 46px;
+        margin-left: 110px;
+        gap: 60px;
+        
+        h3{
+            font: 400 20px 'Kadwa';
+            color: #000
+        }
+      }
+    
+      .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        border-radius: 60px;
+        background-color: #000;
+    
+        width: 272px;
+        height: 76.86px;
+    
+        margin-top: 45px;
+        margin-left: 120px;
+    
+    
+        .link-contato{
+          display: flex;
+          gap: 8px;
+    
+          h2{
+            font: 400 17px 'Kadwa';
+            color: #fff;
+            text-align: center;
+            margin: 0;
+          }
+          
+          img{
+            width: 31.22px;
+          }
+          
+        }
+    
+      }
+    
+    }
+
+    .container-depoimentos{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 0;
+
+      h1{
+        font: 400 65px 'Anton';
+      }
+
+      .container-avaliacoes{
+        display: flex;
+        gap: 20px;
+
+        .avaliacoes{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+          width: 175px;
+          height: 75px;
+
+          border-radius: 55px;
+          background-color: #fff;
+        }
+      }
+    }
+
+    .depoimento-mapeado{
+      display: flex;
+      flex-wrap: wrap;
+      width: 500px;
+
+      margin-top: 180px;
+      margin-left: -780px;
+
+      .mapeado{
+        display: flex;
+        flex-direction: row;
+        max-width: 300px;
+      }
+    }
+
+}

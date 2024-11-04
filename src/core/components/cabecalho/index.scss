@@ -1,0 +1,76 @@
+.header {
+  padding: 36px 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0px;
+
+
+  a {
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 270px;
+    height: auto;
+
+  }
+
+  .h3-header {
+    display: flex;
+    gap: 60px;
+
+    h3 {
+      font: 400 17px 'Kadwa';
+      color: #fff
+    }
+  }
+
+  .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .button-contato {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+
+      font: 400 17px 'Kadwa';
+      color: #fff;
+      background-color: #6F6F6F;
+
+      border-radius: 60px;
+      border: none;
+      width: 252px;
+      height: 70px;
+
+      img {
+        width: 28.22px;
+      }
+
+    }
+
+    .marrom {
+      background-color: #806138;
+    }
+
+    .login-button {
+      border-radius: 28px;
+      padding: 8px 22px;
+      border: none;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1395px) {
+
+  .header {
+    display: none;
+  }
+
+}
